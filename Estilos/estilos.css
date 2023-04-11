@@ -61,13 +61,38 @@
 }
 #tablaCursos{
     border-collapse: collapse;
-    
     width: 95%;
+    
+}
+
+#tablaCursos img{
+    width: 340px;
+    border-radius: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#tablaCursos a{
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    
+}
+#tablaCursos h3{
+    width: 80%;
+    margin-left: 10% ;
+    text-align: center;
+    margin-top: -4px;
+    color: azure;
+    background-color:#424949;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
 }
 
 th,td{
     margin: 0px;
-    border: 2px solid black;
+    width: 25%;
     text-align: center;
     border-collapse: collapse;
 }
