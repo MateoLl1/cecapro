@@ -52,17 +52,19 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 0%;
 }
+
 /*/////////SUBTITULO////////////*/
 
 .contenedor-cursos{
     margin-top: 0%;
     padding-top: 20px;
-    margin-left: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #424949;
 }
 #tablaCursos{
     border-collapse: collapse;
     width: 95%;
-    
 }
 
 #tablaCursos img{
@@ -70,17 +72,18 @@
     border-radius: 20px;
     margin: 0%;
     padding: 0%;
+    
 }
 
 #tablaCursos a{
     text-decoration: none;
     color: inherit;
     width: 100%;
-    
-}
+    margin-left: 11%;
+    }
 #tablaCursos h3{
     width: 80%;
-    margin-left: 10% ;
+    margin-left: 20% ;
     text-align: center;
     margin-top: -4px;
     color: azure;
@@ -96,6 +99,16 @@ th,td{
     text-align: center;
     border-collapse: collapse;
 }
+
+
+#tablaCursos img:hover{
+    border: 3px solid #F1C40F; 
+
+}
+#tablaCursos h3:hover{
+    color: red;
+}
+
 
 
 /*//////////CONTENEDOR CURSOS////////////*/
@@ -143,7 +156,9 @@ th,td{
             width: 90%;
         }
 
-        
+        #subtitulo{
+            font-size: 90%;
+        }
         
         #imgLogo{
             display: block;
@@ -157,3 +172,15 @@ th,td{
             height: 210px;
         }
       }
+
+
+    /*CURSOS*/
+
+
+    
+
+      
+
+      
+
+
