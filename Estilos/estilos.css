@@ -10,12 +10,15 @@
 }
 
 .btnsMenu{ 
+    padding-top: 8px;
     margin: 5px;
+    float: right;
 }
 
 #txtMenu{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 3px;
+    font-size: 20px;
 }
 
 #imgLogo{
@@ -23,7 +26,6 @@
     height: 50px;
     vertical-align: middle;
     padding-left: 2%;
-    padding-right: 60%;
 }
 
 .iconMenu{
@@ -33,3 +35,56 @@
     vertical-align: middle;
     padding: 2px;
 }
+
+
+/*//////////MENU////////////////*/
+
+
+
+
+
+
+
+
+/*///////RESPONSIVE DESIGN ////////////*/
+    
+    /*MENU*/
+
+    @media only screen and (max-width: 650px) {
+        #imgLogo{
+            padding-left: 1%;
+            width: 130px;
+            height: 40px;
+        }
+        #txtMenu{
+            font-size: 15px;
+        }
+        .btnsMenu{
+            padding: 0%;
+        }
+      }
+
+
+      @media only screen and (max-width: 541px) {
+        .btnsMenu{
+            width: 90%;
+        }
+        .btnsMenu button{
+            display: block;
+            width: 90%;
+        }
+
+        
+        
+        #imgLogo{
+            display: block;
+            width: 90%;
+            padding : 5%;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            height: 80px;
+        }
+        #encabezado{
+            height: 210px;
+        }
+      }
