@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#encabezado{
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 7px;
+}
+
+.btnsMenu{ 
+    padding-top: 8px;
+    margin: 5px;
+    float: right;
+    
+}
+
+#txtMenu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 3px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+#imgLogo{
+    width: 150px;
+    height: 50px;
+    vertical-align: middle;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+
+.iconMenu{
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.btnsMenu button:hover{
+    background-color: brown;
+}
+
+
+/*//////////MENU////////////////*/
+
+#subtitulo{
+    background-color: #F2F3F4;
+    margin-top: 0%;
+    padding: 10px;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0%;
+}
+
+/*/////////SUBTITULO////////////*/
+
+
+
+
+.gallery-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    padding: 10px;
+    grid-gap: 10px;
+    
+}
+
+.gallery_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.gallery_item{
+    position: relative;
+    
+}
+
+.gallery_title{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: #1c1c1e;
+    margin: 0%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.gallery_img:hover{
+    opacity: 0.8;
+}
+
+
+.gallery_title:hover{
+    color: yellow;
+}
+
+/*//////////CONTENEDOR CURSOS////////////*/
+
+
+#final{
+    width: 100%;
+    height: 200px;
+    background-color: #1c1c1e;
+    margin-top: 20px;
+}
+
+
+
+
+/*//////////FINAL///////////////*/
+
+#agregar {
+    border-radius: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-color: white;
+    float: right;
+    margin-right: 2%;
+    margin-top: 10px;
+}
+
+#agregar img{
+    width: 60px;
+    height: 60px;
+
+}
+.icon-redes{
+    float: left;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    margin-bottom: 0;
+    margin-top: 120px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*///////RESPONSIVE DESIGN ////////////*/
+    
+    /*MENU*/
+
+    @media only screen and (max-width: 650px) {
+        #imgLogo{
+            padding-left: 1%;
+            width: 130px;
+            height: 40px;
+        }
+        #txtMenu{
+            font-size: 15px;
+        }
+        .btnsMenu{
+            padding: 0%;
+        }
+
+        .icon-redes{
+            width: 30px;
+            height: 30px;
+        }
+      }
+
+
+      @media only screen and (max-width: 541px) {
+        .btnsMenu{
+            width: 90%;
+        }
+        .btnsMenu button{
+            display: block;
+            width: 90%;
+        }
+
+        #subtitulo{
+            font-size: 90%;
+        }
+        
+        #imgLogo{
+            display: block;
+            width: 90%;
+            padding : 5%;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            height: 80px;
+        }
+        #encabezado{
+            height: 210px;
+        }
+      }
+
+
+    /*CURSOS*/
+
+    @media only screen and (max-width: 500px){
+
+        .gallery-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media only screen and (max-width: 350px){
+
+        .gallery-container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      @media only screen and (max-width: 1070px){
+
+        .gallery_title{
+            font-size: 80%;
+        }
+      }
+
+    
+
+      
+
+      
+
+
